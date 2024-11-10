@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  width: 100%;
+  padding: 28px 75px;
+  justify-content: space-between;
+  align-items: center;
+  // gap: 593px;
+  background: linear-gradient(180deg, #151515 0%, #170525 97.92%);
+
+  &__Left {
+    display: flex;
+    color: white;
+    gap: 32px;
+  }
+
+  &__Center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 32px;
+    color: white;
+  }
+
+  &__Right {
+    display: flex;
+    color: white;
+    gap: 32px;
+  }
+}
